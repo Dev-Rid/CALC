@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+l
+    <div class="container">
+
+        <form action="#" class="calculator" name="calc">
+        
+            <!-- DISPLAY INPUT -->
+            <input id="display" maxlength="12">
+            <!-- <i class="fa-duotone fa-share-all"></i> -->
+            <div class="calc">
+                <span class="num" onclick="disp(7)" value="7">7</span>
+                <span class="num" onclick="disp(8)" value="8">8</span>
+                <span class="num" onclick="disp(9)" value="9">9</span>
+                <span class="num operator clr" onclick="clear()">c</span>
+                <span class="num" onclick="disp(4)" value="4">4</span>
+                <span class="num" onclick="disp(5)" value="5">5</span>
+                <span class="num" onclick="disp(6)" value="6">6</span> 
+                <span class="num operator sum fas fa-share" onclick="del()"></span>
+                <span class="num" onclick="disp(1)" value="1">1</span>
+                <span class="num" onclick="disp(2)" value="2">2</span>
+                <span class="num" onclick="disp(3)" value="3">3</span>
+                <span class="num operator pointer" onclick="disp('%')" value="%">%</span>
+                <span class="num operator pointer" onclick="disp('.')" value=".">.</span>
+                <span class="num" onclick="disp(0)" value="0">0</span>
+                <span class="num operator pointer" onclick="disp('/')" value="/">/</span>
+                <span class="num operator pointer" onclick="disp('X')" value="*">X</span>
+                <span class="num operator sum pointer" onclick="disp('+')" value="+">+</span>
+                <span class="num operator pointer" onclick="disp('-')" value="-">-</span>
+                <span class="num operator equal" onclick="equal()">=</span>
+
+            </div>
+        
+        </form>
+        
+        <footer>✍️A b i o l a</footer>
+        
+    </div>
+
+    
+</body>
+</html>
+
+<script src="calc.js"></script>
